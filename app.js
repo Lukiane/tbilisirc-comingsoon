@@ -11,4 +11,4 @@ app.get("/", function(req, res) {
 });
 
 const server = http.createServer(app);
-server.listen(80, () => console.log('Server Started - Listening 3000'));
+server.listen(3000, () => console.log('Server Started - Listening 3000'));
